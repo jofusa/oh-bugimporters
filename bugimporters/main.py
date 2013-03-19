@@ -72,6 +72,7 @@ class BugImportSpider(scrapy.spider.BaseSpider):
                 'google': 'google.GoogleBugImporter',
                 'launchpad': 'launchpad.LaunchpadBugImporter',
                 'bugzilla': 'bugzilla.BugzillaBugImporter',
+                'jira': 'jira.JiraBugImporter',
                 }
 
             raw_bug_importer = obj.bugimporter
