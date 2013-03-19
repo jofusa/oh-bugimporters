@@ -1,0 +1,8 @@
+- base_url: http://jira.codehaus.org/
+  tracker_name: JRuby
+  bugimporter: jira.JiraBugImporter
+  documentation_text: documentation
+  documentation_type: keywords
+  bitesized_text: easy
+  bitesized_type: keywords
+  queries: ['http://jira.codehaus.org/issues/?jql=project%20%3D%20JRUBY%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20priority%20DESC']
